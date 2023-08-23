@@ -6,7 +6,7 @@
 /*   By: envyilma <envyilma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/01 19:27:26 by envyilma          #+#    #+#             */
-/*   Updated: 2023/08/23 16:48:22 by envyilma         ###   ########.fr       */
+/*   Updated: 2023/08/23 17:39:41 by envyilma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,4 @@ void	push_swap(char **av)
 	}
 	radix_short_with_bite(stack);
 	free_stack(stack);
-	free_array(av);
 }
